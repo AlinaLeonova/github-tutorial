@@ -1,0 +1,58 @@
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
+/* цвет основного текста #212121 */ 
+/* цвет абзацев #757575 */ 
+/* цвет  лого #2196F3 */ 
+/* цвет текста героя #FFFFFF */ 
+/* цвет акцента #2196F3 */ 
+/* цвет фона вторичный #E5E5E5 */
+/* #F5F4FA */
+/* #F5F4FA */
+
+
+body{
+    color: var(--primary-text-color);
+    background-color: #FFFFFF;
+    font-family: Roboto;
+}
+
+ul{
+    list-style: none;
+}
+
+.logo{
+    color: var(--accent-color);
+}
+/* Site nav */
+.site-nav .link{
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+   color: var(--accent-color); 
+}
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+.section-title{
+    color: var(--title-text-color);
+}
+.hero-title{
+    color: #FFFFFF;
+    background-color: #E5E5E5;
+}
+.feature-list .title{
+    color: var(--title-text-color);
+}
+.button{
+    color: ;
+    background-color: ;
+    font-size: ;
+    padding: ;
+    display: ;
+    border: ;
+}

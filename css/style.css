@@ -183,6 +183,19 @@ a {
   display: inline-block;
 }
 
-li {
-  list-style-type: none;
+.container {
+  width: 1200px;
+  display: flex;
+}
+
+.header-items {
+  display: flex;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-item {
 }
